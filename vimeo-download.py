@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # Downloads the video and audio streams from the master json url and recombines
 # it into a single file
+
+# example: python vimeo-download.py -u <url> -o <outputfile>.mp4
+
 from __future__ import print_function
 import requests
 import base64
