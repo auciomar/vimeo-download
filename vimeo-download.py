@@ -55,16 +55,19 @@ def download_video(base_url, content):
 	print('\n')
 	type(heights)
 
+	####################################
+	# ALTERE AQUI A RESOLUCAO DO VIDEO #
+	####################################
 	# idx, _ = max(heights, key=lambda t: t[1])
 	resol = 720
 	idx = dict([(v,k) for k, v in heights])[resol]
 	_ = resol
 
 	print('idx: ', idx)
-	print('\n')    
+	print('\n')
 	print('_: ', _)
 	print('\n')
-    
+
 	video = content['video'][idx]
 	video_base_url = base_url + 'video/' + video['base_url']
 	print('video base url:', video_base_url)
