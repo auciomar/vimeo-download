@@ -11,5 +11,5 @@ brew install ffmpeg
 ## Modo de uso
 
 ```
-python vimeo-download.py -u "\<url master.json>" -o "\<nome do arquivo>"
+python vimeo-download.py -u "<url master.json>" -o "<nome do arquivo>"
 ```
